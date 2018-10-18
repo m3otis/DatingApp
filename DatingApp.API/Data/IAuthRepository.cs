@@ -8,7 +8,7 @@ namespace DatingApp.API.Data
          // registering user
          Task<User> Register (User user, string password);
          // login user to api
-         Task<User> Long(string username, string password);
+         Task<User> Login(string username, string password);
          // check if user exists
          Task<bool> UserExists(string username);
     }
